@@ -1,0 +1,24 @@
+* {
+  font-family: "Mooli", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+body {
+  background-image: url(../assets/fotogrupalbyn.png);
+  background-size: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
