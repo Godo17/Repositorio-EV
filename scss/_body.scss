@@ -1,5 +1,55 @@
-body{
-    background-image: url(../assets/fotogrupalbyn.png);
-    background-size: auto;
+body{  
+    background-image: url(../assets/fotobanda.png);  
+    background-repeat: no-repeat;
+    background-color: black;
+      
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47474793;
+    top: 150px;
+    color: white;
+    width: 600px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    color: white;
+    top: 800px;
+    margin: 0 150px 0 150px;
+    position: relative;
+
+}
+
+.historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    color: white;
+    top: 1000px;
+    margin: 0 150px 0 150px;
+    position: relative;
+
+
+    &_tittle{
+        font-size: 2rem;
+
+    }
 
 }

@@ -3,13 +3,25 @@
   font-family: "Roboto", sans-serif;
 }
 
+.contenedor {
+  align-items: baseline;
+}
+
 .logo {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 header {
-  background-color: black;
+  height: 150px;
+  display: flex;
+}
+
+.navbar {
+  align-content: end;
+  justify-content: right;
+  width: 100%;
 }
 
 .nav-link {
@@ -17,8 +29,53 @@ header {
 }
 
 body {
-  background-image: url(../assets/fotogrupalbyn.png);
-  background-size: auto;
+  background-image: url(../assets/fotobanda.png);
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(71, 71, 71, 0.5764705882);
+  top: 150px;
+  color: white;
+  width: 600px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  color: white;
+  top: 800px;
+  margin: 0 150px 0 150px;
+  position: relative;
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  color: white;
+  top: 1000px;
+  margin: 0 150px 0 150px;
+  position: relative;
+}
+.historia_tittle {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
