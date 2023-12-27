@@ -1,6 +1,6 @@
 * {
-  font-family: "Mooli", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .contenedor {
@@ -36,9 +36,12 @@ body {
 
 .encabezado {
   font-size: 3rem;
+  font-weight: 500;
   color: whitesmoke;
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
+  background-color: rgba(71, 71, 71, 0.7450980392);
+  width: 600px;
 }
 
 main {
@@ -46,6 +49,7 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 800px;
 }
 
 .alert {
@@ -53,7 +57,6 @@ main {
   justify-content: center;
   align-items: center;
   background-color: rgba(71, 71, 71, 0.7450980392);
-  top: 80px;
   color: white;
   width: 600px;
 }
@@ -83,6 +86,21 @@ main {
 }
 .historia_tittle {
   font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-content: end;
+  background-color: gray;
+  top: 700px;
+  z-index: 1;
+}
+
+.menu_footer {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

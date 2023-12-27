@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-content: end;
+    background-color: gray;
+    top: 700px;
+    z-index: 1;
+}
+
+.menu_footer{
+    display: flex;
+    flex-direction: column;
+}
