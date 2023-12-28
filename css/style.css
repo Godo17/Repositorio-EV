@@ -93,7 +93,7 @@ footer {
   justify-content: end;
   flex-direction: column;
   align-content: end;
-  background-color: gray;
+  background-color: black;
   top: 700px;
   z-index: 1;
 }
@@ -101,6 +101,26 @@ footer {
 .menu_footer {
   display: flex;
   flex-direction: column;
+}
+
+.redes {
+  display: flex;
+  justify-content: right;
+  height: 40px;
+  width: 80%;
+}
+.redes a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  width: 15px;
+  height: 15px;
+  font-size: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.redes a:hover {
+  transform: scale(1, 1);
+  color: violet;
 }
 
 /*# sourceMappingURL=style.css.map */
