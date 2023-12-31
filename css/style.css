@@ -119,8 +119,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 .redes a:hover {
-  transform: scale(1, 1);
-  color: violet;
+  transform: scale(1.2, 1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
