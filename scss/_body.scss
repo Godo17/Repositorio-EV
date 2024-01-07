@@ -63,3 +63,21 @@ main{
     }
 
 }
+
+.accordion{
+
+    
+    &-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #474747be;
+        color: white;
+        width: 800px;
+    }
+
+    &-button{
+        background-color: #474747be;
+        color: white;
+    }
+}

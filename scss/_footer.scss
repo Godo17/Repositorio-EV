@@ -11,6 +11,20 @@ footer{
 .menu_footer{
     display: flex;
     flex-direction: column;
+
+    & ul{
+        list-style: none;
+    }
+    
+    & a{
+        color: white;
+        text-decoration: none;
+
+
+        &:hover{
+            color: blue;
+        }
+    }
 }
 
 
@@ -36,6 +50,15 @@ footer{
         }
 
         }
+
+
+}
+
+.copyright{
+    color: #8080802b;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
