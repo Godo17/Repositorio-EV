@@ -79,5 +79,20 @@ main{
     &-button{
         background-color: #474747be;
         color: white;
+
+        &.btn{
+            color: white;
+        }
+
+        &::after{
+            color: white;
+        }
+
+        &:not(.collapsed){
+            background-color: #474747be;
+            color: white;
+        }
     }
+
+
 }
