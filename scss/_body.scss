@@ -96,3 +96,23 @@ main{
 
 
 }
+
+.listado{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+    color: white;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+body{
+    color: white;
+}
+
+.share{
+    display: flex;
+    justify-content: right;
+}
