@@ -1,10 +1,20 @@
 body{  
-    background-image: url(../assets/fotobanda.png);  
+    background-image: url(../assets/fotobanda.png); 
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
-      
+
+}     
+
+ul{
+    width: 100%;
+    justify-content: right;
+    
 }
 
+img{
+    width: 350px;
+}
 .encabezado{
     font-size: 3rem;
     font-weight: 500;
