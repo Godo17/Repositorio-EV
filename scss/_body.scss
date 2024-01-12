@@ -115,4 +115,42 @@ body{
 .share{
     display: flex;
     justify-content: right;
+    width: 50px;
+    
+
+    
+    & button{
+    background-color: rgb(255 255 255 / 0%);
+    color: white;
+    border: none;
+    }
+
+    &:hover{
+        .links{
+            display: inline;
+            transition: display 3s;
+            
+            
+        }
+        button{
+            transition: display 3s;
+            display: none;
+        }
+    }
+
+
 }
+
+.links{
+    display: none;
+}
+
+#wp{
+    background-color: rgb(255 255 255 / 0%);
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+
+

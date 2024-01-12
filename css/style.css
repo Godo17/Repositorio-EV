@@ -129,6 +129,31 @@ body {
 .share {
   display: flex;
   justify-content: right;
+  width: 50px;
+}
+.share button {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+}
+.share:hover .links {
+  display: inline;
+  transition: display 3s;
+}
+.share:hover button {
+  transition: display 3s;
+  display: none;
+}
+
+.links {
+  display: none;
+}
+
+#wp {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  text-decoration: none;
 }
 
 footer {
