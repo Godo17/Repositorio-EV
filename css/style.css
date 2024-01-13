@@ -26,11 +26,12 @@ header {
 
 .nav-link {
   color: white;
+  box-sizing: border-box;
 }
 .nav-link:hover {
   color: #0047cc;
-  box-shadow: #1f6bfa;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 20px 8px rgba(0, 71, 204, 0.431372549);
 }
 
 body {
@@ -74,6 +75,13 @@ main {
   background-color: rgba(71, 71, 71, 0.7450980392);
   color: white;
   width: 600px;
+  border-color: rgba(71, 71, 71, 0.7450980392);
+  box-sizing: border-box;
+}
+.alert:hover {
+  border-color: #0047cc;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px 10px rgba(0, 71, 204, 0.3882352941);
 }
 
 .video {
@@ -84,7 +92,6 @@ main {
   flex-direction: column;
   color: white;
   top: 400px;
-  margin: 0 150px 0 150px;
   position: relative;
 }
 
@@ -172,18 +179,20 @@ body {
 }
 
 footer {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  align-content: end;
   background-color: black;
   top: 700px;
   z-index: 1;
 }
 
-.menu_footer {
+.container_footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu_footer {
+  text-align: center;
 }
 .menu_footer ul {
   list-style: none;
@@ -198,21 +207,22 @@ footer {
 
 .redes {
   display: flex;
-  justify-content: right;
-  height: 40px;
-  width: 80%;
+  justify-content: center;
+  height: 80px;
+  margin: 9px;
+  width: 100%;
 }
 .redes a {
   color: white;
-  margin: 10px;
+  text-align: center;
   text-decoration: none;
+  margin: 10px;
   width: 15px;
   height: 15px;
   font-size: 30px;
-  transition: all 0.4s ease-in-out;
 }
 .redes a:hover {
-  transform: scale(1.2, 1.2);
+  color: blue;
 }
 
 .copyright {
@@ -223,7 +233,7 @@ footer {
 }
 
 /* T A B L E T*/
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
   .container-fluid {
     justify-content: center;
     flex-direction: column;
@@ -263,7 +273,7 @@ footer {
   }
 }
 /* M O B I L E*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
     display: flex;
     justify-content: center;
@@ -305,6 +315,10 @@ footer {
   }
   .historia {
     width: 100%;
+  }
+  .menu_footer ul {
+    display: flex;
+    justify-content: center;
   }
 }
 

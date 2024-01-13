@@ -1,16 +1,19 @@
 footer{
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-    align-content: end;
     background-color: black;
     top: 700px;
     z-index: 1;
 }
 
-.menu_footer{
+
+.container_footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.menu_footer{
+    text-align: center;
+
 
     & ul{
         list-style: none;
@@ -30,29 +33,34 @@ footer{
 
 .redes{
     display: flex;
-    justify-content: right;
-    height: 40px;
-    width: 80%;
+    justify-content: center;
+    height: 80px;
+    margin: 9px;
+    width: 100%;
 
 
     a{
         color: white;
-        margin: 10px;
+        text-align: center;
         text-decoration: none;
+        margin: 10px;
         width: 15px;
         height: 15px;
         font-size: 30px;
-        transition: all .4s ease-in-out;
+
+
 
         &:hover{
-            transform: scale(1.2,1.2);
-            
+            color:blue;
+
+
         }
 
         }
 
 
 }
+
 
 .copyright{
     color: #8080802b;

@@ -22,10 +22,13 @@ header{
 
 .nav-link{
     color: white;
+    box-sizing:border-box;
+
+
 
     &:hover{
         color: #0047cc;
-        box-shadow:#1f6bfa;
-        box-sizing:border-box;
+        box-sizing: content-box;
+        box-shadow: 0px 0px 20px 8px #0047cc6e;
     }
 }
