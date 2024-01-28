@@ -116,14 +116,15 @@ main{
 }
 
 .listado{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .contacto{
-    color: white;
-    font-size: 2rem;
+    color: #e9ecefdb;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 body{
@@ -168,6 +169,12 @@ body{
     color: white;
     border: none;
     text-decoration: none;
+}
+
+.msj{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 
